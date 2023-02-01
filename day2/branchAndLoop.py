@@ -1,7 +1,7 @@
 #branch
 #a = int(input("input number:"))
 a = -1
-if (a < 0):
+if a < 0:
     print("小于0")
 elif (a == 0):
     print("等于0")
