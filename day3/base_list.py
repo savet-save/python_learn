@@ -1,43 +1,43 @@
-list = [1, 2, 3, 4, "5"]
-print(list[2])
-print(list[-1]) 
+list1 = [1, 2, 3, 4, "5"]
+print(list1[2])
+print(list1[-1]) 
 
-print(list[1:3])
-print(list[:2])
-print(list[3:])
-print(list[1:4:2])
+print(list1[1:3])
+print(list1[:2])
+print(list1[3:])
+print(list1[1:4:2])
 
 #添加
-list.append("6")
-print(list)
+list1.append("6")
+print(list1)
 
-list.extend(["6"])
-print(list)
+list1.extend(["6"])
+print(list1)
 
-list[len(list):] = ["6"]
-list[len(list):] = ["7", "8", "9"]
-print(list)
+list1[len(list1):] = ["6"]
+list1[len(list1):] = ["7", "8", "9"]
+print(list1)
 
-list = [1, 2, 3, 4, "5"]
-list.insert(0, 20)
-print(list)
+list1 = [1, 2, 3, 4, "5"]
+list1.insert(0, 20)
+print(list1)
 
 #删除
-list.remove(1)
-print(list)
+list1.remove(1)
+print(list1)
 
-list.clear()
-print(list)
+list1.clear()
+print(list1)
 
 #修改
-list = [1, 2, 3, 4, "5"]
-list[2] = 30
-print(list)
+list1 = [1, 2, 3, 4, "5"]
+list1[2] = 30
+print(list1)
 
-list = [1, 2, 3, 4, "5"]
-list = [1, 2, 3, 4, "5"]
-list[3:] = [5, "6", "10"]
-print(list)
+list1 = [1, 2, 3, 4, "5"]
+list1 = [1, 2, 3, 4, "5"]
+list1[3:] = [5, "6", "10"]
+print(list1)
 
 #其他方法
 #排序
