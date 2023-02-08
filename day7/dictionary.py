@@ -1,3 +1,4 @@
+#字典part1
 d = {"qwe":2, "rty":"q", 5:"abc"}
 print(d[5])
 
